@@ -1,28 +1,28 @@
 class Pakx < Formula
   desc "Universal package manager for AI agent context"
   homepage "https://pakx.dev"
-  version "0.1.1"
+  version "0.1.3"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/pakxdev/pakx/releases/download/v#{version}/pakx-v#{version}-aarch64-apple-darwin"
-      sha256 "376fcb537b37b1c6b4c8a96df0cdd6385ad85fa3aeccd76fa1ca36a4b1475535"
+      sha256 "15d32ac77b3786139d79cdea9e646528addd08d317e65b3a080f0326f7fbc5b3"
     end
     on_intel do
       url "https://github.com/pakxdev/pakx/releases/download/v#{version}/pakx-v#{version}-x86_64-apple-darwin"
-      sha256 "f19bba5da884590680fdf4644d19c5ebd63727048e39e263a2e0f9ae98a75b0f"
+      sha256 "21188d9c243307ec4e2f29a3700cad876739531ed7dfb5d597ddde5581f684d7"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/pakxdev/pakx/releases/download/v#{version}/pakx-v#{version}-aarch64-unknown-linux-gnu"
-      sha256 "4021400bd400f981d318fbe9f53a838b6f4c7d9a0474c581a891fef38b19af42"
+      sha256 "f56370be27a59b92992119d67e3e822ca8508275378b9559144befee3efe0cf4"
     end
     on_intel do
       url "https://github.com/pakxdev/pakx/releases/download/v#{version}/pakx-v#{version}-x86_64-unknown-linux-gnu"
-      sha256 "d079cd585c3e5c2caf4ec47f8436ba890df7c789416c0b063712591fe0d5f4e4"
+      sha256 "97acb66cd12bad9cc1a345c9ff59e80a55847d535fca4441c68f303161d4e3a0"
     end
   end
 
